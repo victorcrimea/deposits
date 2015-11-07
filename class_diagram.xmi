@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2015-11-07T19:39:52" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.9</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Q1Dlhu1xA7Uz" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ZI8zv5M9XoBC" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="wUZsHmufo6RT" name="boolean"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="0SQ8Xs87AE43" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="KOCrDL17nay3" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Lqg7w7awY053" name="byte"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="sB80NB1fZBVk" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="WWqH5oKOc1VZ" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="65Vc3Yethmr3" name="String"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="vqgT1BDVg1mj" name="Integer"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="n57Q4azAdSlg" name="Character"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="zPXe9Mh5COYD" name="Boolean"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="XjiBlSuWXzwb" name="Float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ZtkCKTqJsLxz" name="Double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="hd2t1Y4WIki1" name="Byte"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="DcXicSIBJ0Md" name="Short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="TCuJWsIDVJ5U" name="Long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="r909ug85Jelt" name="StringBuffer"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="432N3OzUZtn3" name="StringBuilder"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Package visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="0HYxPvIMa7Gb" name="com.epam.deposits.model">
+       <UML:Namespace.ownedElement>
+        <UML:Class visibility="public" isSpecification="false" namespace="0HYxPvIMa7Gb" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="MF5XnZli4SBR" name="Offer">
+         <UML:Classifier.feature>
+          <UML:Attribute visibility="private" isSpecification="false" xmi.id="lpgb2QWOdavR" type="Q1Dlhu1xA7Uz" name="period"/>
+          <UML:Attribute visibility="private" isSpecification="false" xmi.id="9e9C5Ibyw8NN" type="KOCrDL17nay3" name="rate"/>
+          <UML:Attribute visibility="private" isSpecification="false" xmi.id="zgru1qWkdCMf" type="wUZsHmufo6RT" name="refillable"/>
+         </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class visibility="public" isSpecification="false" namespace="0HYxPvIMa7Gb" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="l4GENLiCThML" name="Bank">
+         <UML:Classifier.feature>
+          <UML:Attribute visibility="private" isSpecification="false" xmi.id="wVjTOUW8WlMt" type="65Vc3Yethmr3" name="name"/>
+         </UML:Classifier.feature>
+        </UML:Class>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" canvasheight="1263" canvaswidth="2063" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="GSU2e8JNypF2" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-574" showattsigs="601" showstereotype="1" y="-470" showattributes="1" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" localid="NSOe69XADaWE" width="261" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="l4GENLiCThML" showscope="1" height="35" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-926" showattsigs="601" showstereotype="1" y="-398" showattributes="1" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" localid="vgXRRtJTuN1c" width="262" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="MF5XnZli4SBR" showscope="1" height="63" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-857" showattsigs="601" showstereotype="1" y="-621" showattributes="1" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" localid="xlMZvgCUUEgt" width="189" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="0HYxPvIMa7Gb" showscope="1" height="38" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="MF5XnZli4SBR" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="192" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="0HYxPvIMa7Gb" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="509">
+          <linepath layout="Polyline">
+           <startpoint startx="-730" starty="-583"/>
+           <endpoint endx="-730" endy="-398"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="l4GENLiCThML" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="0HYxPvIMa7Gb" font="DejaVu Sans,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="509">
+          <linepath layout="Polyline">
+           <startpoint startx="-668" starty="-583"/>
+           <endpoint endx="-574" endy="-470"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="GSU2e8JNypF2" uniqueid="xlMZvgCUUEgt" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="807" id="GSU2e8JNypF2" label="class diagram"/>
+     <listitem open="1" type="818" id="0HYxPvIMa7Gb">
+      <listitem open="0" type="813" id="l4GENLiCThML">
+       <listitem open="0" type="814" id="wVjTOUW8WlMt"/>
+      </listitem>
+      <listitem open="0" type="813" id="MF5XnZli4SBR">
+       <listitem open="0" type="814" id="lpgb2QWOdavR"/>
+       <listitem open="0" type="814" id="9e9C5Ibyw8NN"/>
+       <listitem open="0" type="814" id="zgru1qWkdCMf"/>
+      </listitem>
+     </listitem>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="wUZsHmufo6RT"/>
+      <listitem open="1" type="829" id="zPXe9Mh5COYD"/>
+      <listitem open="1" type="829" id="Lqg7w7awY053"/>
+      <listitem open="1" type="829" id="hd2t1Y4WIki1"/>
+      <listitem open="1" type="829" id="ZI8zv5M9XoBC"/>
+      <listitem open="1" type="829" id="n57Q4azAdSlg"/>
+      <listitem open="1" type="829" id="KOCrDL17nay3"/>
+      <listitem open="1" type="829" id="ZtkCKTqJsLxz"/>
+      <listitem open="1" type="829" id="0SQ8Xs87AE43"/>
+      <listitem open="1" type="829" id="XjiBlSuWXzwb"/>
+      <listitem open="1" type="829" id="Q1Dlhu1xA7Uz"/>
+      <listitem open="1" type="829" id="vqgT1BDVg1mj"/>
+      <listitem open="1" type="829" id="WWqH5oKOc1VZ"/>
+      <listitem open="1" type="829" id="TCuJWsIDVJ5U"/>
+      <listitem open="1" type="829" id="sB80NB1fZBVk"/>
+      <listitem open="1" type="829" id="DcXicSIBJ0Md"/>
+      <listitem open="1" type="829" id="65Vc3Yethmr3"/>
+      <listitem open="1" type="829" id="r909ug85Jelt"/>
+      <listitem open="1" type="829" id="432N3OzUZtn3"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Java">
+    <codedocument package="-1" fileExt=".xml" id="ANTDOC" fileName="build" writeOutCode="false">
+     <textblocks>
+      <codeblockwithcomments tag="xmlDecl" text="&lt;?xml version=&quot;1.0&quot;?>">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <xmlelementblock tag="projectDecl" nodeName="project" canDelete="false">
+       <header>
+        <codecomment tag="" text="Java ANT build document"/>
+       </header>
+       <textblocks/>
+      </xmlelementblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+    </codedocument>
+    <classifiercodedocument package="0HYxPvIMa7Gb" fileExt=".java" parent_class="l4GENLiCThML" id="l4GENLiCThML" fileName="Bank" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package com.epam.deposits.controller;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="l4GENLiCThML" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Bank&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks>
+          <ccfdeclarationcodeblock tag="tblock_0" parent_id="wVjTOUW8WlMt" indentLevel="1" text="private String name;" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1"/>
+           </header>
+          </ccfdeclarationcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="public Bank () { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <codeaccessormethod tag="hblock_tag_0" accessType="0" parent_id="wVjTOUW8WlMt" indentLevel="1" classfield_id="wVjTOUW8WlMt" text="return name;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Get the value of name&amp;#010;&amp;#010;@return the value of name"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_1" accessType="1" parent_id="wVjTOUW8WlMt" indentLevel="1" classfield_id="wVjTOUW8WlMt" text="name = value;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Set the value of name&amp;#010;&amp;#010;"/>
+               </header>
+              </codeaccessormethod>
+             </textblocks>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="-1" listClassName="" field_type="0" parent_id="wVjTOUW8WlMt" writeOutMethods="true" initialValue="">
+       <header>
+        <codecomment tag=""/>
+       </header>
+       <ccfdeclarationcodeblock tag="tblock_0" parent_id="wVjTOUW8WlMt" indentLevel="1" text="private String name;" canDelete="false">
+        <header>
+         <codecomment tag="" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod tag="hblock_tag_0" accessType="0" parent_id="wVjTOUW8WlMt" indentLevel="1" classfield_id="wVjTOUW8WlMt" text="return name;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Get the value of name&amp;#010;&amp;#010;@return the value of name"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod tag="hblock_tag_1" accessType="1" parent_id="wVjTOUW8WlMt" indentLevel="1" classfield_id="wVjTOUW8WlMt" text="name = value;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Set the value of name&amp;#010;&amp;#010;"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="0HYxPvIMa7Gb" fileExt=".java" parent_class="MF5XnZli4SBR" id="MF5XnZli4SBR" fileName="Offer" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package com.epam.deposits.controller;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="MF5XnZli4SBR" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Offer&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks>
+          <ccfdeclarationcodeblock tag="tblock_0" parent_id="lpgb2QWOdavR" indentLevel="1" text="private int period;" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1"/>
+           </header>
+          </ccfdeclarationcodeblock>
+          <ccfdeclarationcodeblock tag="_2" parent_id="9e9C5Ibyw8NN" indentLevel="1" text="private double rate;" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1"/>
+           </header>
+          </ccfdeclarationcodeblock>
+          <ccfdeclarationcodeblock tag="_5" parent_id="zgru1qWkdCMf" indentLevel="1" text="private boolean refillable;" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1"/>
+           </header>
+          </ccfdeclarationcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="public Offer () { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <codeaccessormethod tag="hblock_tag_0" accessType="0" parent_id="lpgb2QWOdavR" indentLevel="1" classfield_id="lpgb2QWOdavR" text="return period;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Get the value of period&amp;#010;&amp;#010;@return the value of period"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_1" accessType="1" parent_id="lpgb2QWOdavR" indentLevel="1" classfield_id="lpgb2QWOdavR" text="period = value;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Set the value of period&amp;#010;&amp;#010;"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_3" accessType="0" parent_id="9e9C5Ibyw8NN" indentLevel="1" classfield_id="9e9C5Ibyw8NN" text="return rate;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Get the value of rate&amp;#010;&amp;#010;@return the value of rate"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_4" accessType="1" parent_id="9e9C5Ibyw8NN" indentLevel="1" classfield_id="9e9C5Ibyw8NN" text="rate = value;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Set the value of rate&amp;#010;&amp;#010;"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_6" accessType="0" parent_id="zgru1qWkdCMf" indentLevel="1" classfield_id="zgru1qWkdCMf" text="return refillable;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Get the value of refillable&amp;#010;&amp;#010;@return the value of refillable"/>
+               </header>
+              </codeaccessormethod>
+              <codeaccessormethod tag="hblock_tag_7" accessType="1" parent_id="zgru1qWkdCMf" indentLevel="1" classfield_id="zgru1qWkdCMf" text="refillable = value;" canDelete="false">
+               <header>
+                <javacodedocumentation tag="" indentLevel="1" text="Set the value of refillable&amp;#010;&amp;#010;"/>
+               </header>
+              </codeaccessormethod>
+             </textblocks>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="-1" listClassName="" field_type="0" parent_id="lpgb2QWOdavR" writeOutMethods="true" initialValue="">
+       <header>
+        <codecomment tag=""/>
+       </header>
+       <ccfdeclarationcodeblock tag="tblock_0" parent_id="lpgb2QWOdavR" indentLevel="1" text="private int period;" canDelete="false">
+        <header>
+         <codecomment tag="" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod tag="hblock_tag_0" accessType="0" parent_id="lpgb2QWOdavR" indentLevel="1" classfield_id="lpgb2QWOdavR" text="return period;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Get the value of period&amp;#010;&amp;#010;@return the value of period"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod tag="hblock_tag_1" accessType="1" parent_id="lpgb2QWOdavR" indentLevel="1" classfield_id="lpgb2QWOdavR" text="period = value;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Set the value of period&amp;#010;&amp;#010;"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="-1" listClassName="" field_type="0" parent_id="9e9C5Ibyw8NN" writeOutMethods="true" initialValue="">
+       <header>
+        <codecomment tag=""/>
+       </header>
+       <ccfdeclarationcodeblock tag="_2" parent_id="9e9C5Ibyw8NN" indentLevel="1" text="private double rate;" canDelete="false">
+        <header>
+         <codecomment tag="" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod tag="hblock_tag_3" accessType="0" parent_id="9e9C5Ibyw8NN" indentLevel="1" classfield_id="9e9C5Ibyw8NN" text="return rate;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Get the value of rate&amp;#010;&amp;#010;@return the value of rate"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod tag="hblock_tag_4" accessType="1" parent_id="9e9C5Ibyw8NN" indentLevel="1" classfield_id="9e9C5Ibyw8NN" text="rate = value;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Set the value of rate&amp;#010;&amp;#010;"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="-1" listClassName="" field_type="0" parent_id="zgru1qWkdCMf" writeOutMethods="true" initialValue="">
+       <header>
+        <codecomment tag=""/>
+       </header>
+       <ccfdeclarationcodeblock tag="_5" parent_id="zgru1qWkdCMf" indentLevel="1" text="private boolean refillable;" canDelete="false">
+        <header>
+         <codecomment tag="" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod tag="hblock_tag_6" accessType="0" parent_id="zgru1qWkdCMf" indentLevel="1" classfield_id="zgru1qWkdCMf" text="return refillable;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Get the value of refillable&amp;#010;&amp;#010;@return the value of refillable"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod tag="hblock_tag_7" accessType="1" parent_id="zgru1qWkdCMf" indentLevel="1" classfield_id="zgru1qWkdCMf" text="refillable = value;" canDelete="false">
+        <header>
+         <javacodedocumentation tag="" indentLevel="1" text="Set the value of refillable&amp;#010;&amp;#010;"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
