@@ -5,4 +5,5 @@ package com.epam.deposits.controller;
  */
 public interface IController {
 	void getDepositOffers();
+	void askForAction();
 }

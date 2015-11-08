@@ -15,6 +15,7 @@ public class ConsoleController implements IController {
 	private IPrinter printer;
 	private List<Bank> banks;
 	private IDepositsProvider depositsPorvider;
+	private Action action;
 
 	public ConsoleController() {
 		this.scanner = new Scanner(System.in);
@@ -24,6 +25,16 @@ public class ConsoleController implements IController {
 
 	@Override
 	public void getDepositOffers() {
+		IDepositsProvider reader = new DepositsFileReader();
+		banks = reader.getDepositOffers();
+	}
 
+	@Override
+	public void askForAction() {
+		printer.printAskForAction();
+		String strAction = scanner.nextLine();
+		if(strAction.equals("list")){
+			this.action = Action.LIST;
+		}
 	}
 }

@@ -6,6 +6,8 @@ import com.epam.deposits.view.ConsolePrinter;
 public class Main {
 	public static void main(String[] args) {
 		IController controller = new ConsoleController();
-		System.out.println("hello");
+
+		controller.askForAction();
+		//System.out.println("hello");
 	}
 }

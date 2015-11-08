@@ -2,11 +2,11 @@ package com.epam.deposits.controller;
 
 import com.epam.deposits.model.Bank;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by victorcrimea on 08.11.15.
  */
 public interface IDepositsProvider {
-	ArrayList<Bank> getDepositOffers();
+	List<Bank> getDepositOffers();
 }

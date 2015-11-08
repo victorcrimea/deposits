@@ -9,4 +9,5 @@ public interface IPrinter {
 	void printGreeteing();
 	void printOffer(DepositOffer offer);
 	void printHeader();
+	void printAskForAction();
 }
