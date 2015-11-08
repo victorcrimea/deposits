@@ -8,10 +8,12 @@ public class DepositOffer {
 	private double rate;
 	private boolean isRefillable;
 	private boolean isWithdrawable;
+	private Currency currency;
 	private Bank bank;
 
-	public DepositOffer(int period, double rate, boolean isRefillable, boolean isWithdrawable, Bank bank) {
+	public DepositOffer(int period, double rate, boolean isRefillable, boolean isWithdrawable, Currency currency, Bank bank) {
 		checkRate(rate);
+		checkNull(bank);
 		this.period = period;
 		this.rate = rate;
 		this.isRefillable = isRefillable;
