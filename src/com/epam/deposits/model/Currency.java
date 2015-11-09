@@ -1,8 +1,17 @@
+/*
+* Currency.java
+* Version: 1
+* Date: 08.11.2015
+* Copyright (c) Victor Semenov
+*/
 package com.epam.deposits.model;
 
 /**
- * Created by victorcrimea on 08.11.15.
+ * Currency enum
+ *
+ * @author Victor Semenov
+ * @version 1
  */
 public enum Currency {
-	UAH,USD,EUR
+	UAH, USD, EUR
 }
