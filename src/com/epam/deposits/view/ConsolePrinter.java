@@ -24,7 +24,7 @@ public class ConsolePrinter implements IPrinter {
 
 	@Override
 	public void printOffer(DepositOffer offer, int id) {
-		System.out.printf("| %2d |    %26s |     %4s  |    %5.1f%% |    %3d мес.|   %13s     |   %9s   | %n", id, offer.getBank().getName(), offer.getCurrency().toString(), offer.getRate(), offer.getPeriod(), new Boolean(offer.isRefillable()), new Boolean(offer.isWithdrawable()));
+		System.out.printf("| %2d |    %26s |     %4s  |    %5.1f%% |   %3d мес.|   %7s     |         %9s   | %n", id, offer.getBank().getName(), offer.getCurrency().toString(), offer.getRate(), offer.getPeriod(), new Boolean(offer.isRefillable()), new Boolean(offer.isWithdrawable()));
 		//System.out.println();
 	}
 
@@ -96,6 +96,8 @@ public class ConsolePrinter implements IPrinter {
 
 	@Override
 	public void printAskForSort() {
+		System.out.println("Для выхода нажмите: q" +
+				"");
 		System.out.print("Для сортировки нажмите цифру-номер колонки 1-6: ");
 	}
 }
